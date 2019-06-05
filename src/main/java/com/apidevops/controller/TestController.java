@@ -4,6 +4,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.apidevops.entities.UsersEntity;
+
 @RestController
 public class TestController {
 	
@@ -11,5 +13,5 @@ public class TestController {
 	public String test() {
 		return "test";
 	}
-
+	
 }
