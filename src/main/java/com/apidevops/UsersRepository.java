@@ -11,7 +11,7 @@ import com.apidevops.entities.UsersEntity;
 @Repository
 public interface UsersRepository extends MongoRepository<UsersEntity, String> {
 	
-	UsersEntity findByFirstName(String firstName);
+	UsersEntity findByFirstName(String username);
 
 	List<UsersEntity> findByLastName(String lastName);
 
